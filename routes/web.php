@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// § Gestisco la rotta alla pagina index tramite il controller 'PageController', che mi restituirà la view di index
+Route::get('/', 'PageController@index');

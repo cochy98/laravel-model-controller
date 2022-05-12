@@ -1,1 +1,7 @@
-//
+/* Importo bootstrap 5 */
+@import '~bootstrap/scss/bootstrap';
+
+/* Do un altezza fissa a tutte le card */
+div.card {
+  height: 100%;
+}
